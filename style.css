@@ -1,0 +1,19 @@
+.text {
+    font-family: "Roboto";
+}
+.card {
+
+}
+.card__title {
+
+}
+.card__text {
+
+}
+.card__img {
+    width: 300px;
+    height: 205px;
+}
+.card__price {
+    font-size: 35px;
+}
