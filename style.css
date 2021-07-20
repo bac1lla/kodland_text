@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .container {
     display: flex;
 }
 .text {
     font-family: Roboto;
+    font-weight: 400;
 }
 .card {
     width: 300px;
-    margin-right: 40px;
+    margin-right: 30px;
     border: 1px solid #E2E2E2;
     border-radius: 5px;
 }
@@ -18,7 +19,7 @@
 .card__title {
     font-size: 20px;
     color: #333;
-    font-weight: bold;
+    font-weight: 700;
 }
 .card__description {
     font-size: 15px;
@@ -34,15 +35,15 @@
 }
 .card__price_num {
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 700;
     margin-right: 5px;
 }
 .card__currency {
     font-size: 20px;
 }
 .card__add-to-cart {
-    /*height: 40px;*/
-    /*width: 50px;*/
+    height: 40px;
+    width: 50px;
     background-color: #4ED17B;
     border-radius: 5px;
     border: none;
